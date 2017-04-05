@@ -39,7 +39,7 @@ function logBase10(x)
 	return Math.log10(x);
 }
 
-function generateRandomNumber(x,y)
+function generateRandomNumber()
 {
-    return Math.floor(Math.random() * (x - y)) + y;	
+    return Math.floor(Math.random() * (1000)) + 1;	
 }
